@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 76" width="260" height="76" fill="none">
+  <defs>
+    <linearGradient id="goldCurveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E5B232" stop-opacity="0.3"/>
+      <stop offset="25%" stop-color="#F5C342"/>
+      <stop offset="65%" stop-color="#FFDE7A"/>
+      <stop offset="100%" stop-color="#E5B232" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="whiteGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.1"/>
+    </linearGradient>
+    <filter id="goldStarGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Simbolo Automotivo Stilizzato -->
+  <g transform="translate(55, 3)">
+    <!-- Stella / Bagliore centrale a 4 punte in oro -->
+    <path d="M75 1.2 L76.8 5.6 L81.2 7.4 L76.8 9.2 L75 13.6 L73.2 9.2 L68.8 7.4 L73.2 5.6 Z" fill="#F5C342" filter="url(#goldStarGlow)"/>
+
+    <!-- Linea principale del tetto / silhouette dell'auto -->
+    <path d="M10 24.5 C24 24.5, 38 23.5, 52 17.5 C61 13.5, 71 6, 85 6 C99 6, 110 12, 118 17.5 C126 21.5, 134 23.5, 140 24" 
+          stroke="url(#goldCurveGrad)" stroke-width="2.6" stroke-linecap="round"/>
+
+    <!-- Linea superiore parabrezza / profilo abitacolo in bianco brillante -->
+    <path d="M42 19 C52 14, 63 10.5, 78 10.5 C93 10.5, 104 14, 112 18.5" 
+          stroke="url(#whiteGlow)" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- Tratti dinamici inferiori (sottoscocca / aerodinamica) -->
+    <path d="M18 24.5 C26 24.5, 32 24, 38 22.5" stroke="#F5C342" stroke-opacity="0.5" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M112 22.5 C118 24, 124 24.5, 132 24.5" stroke="#F5C342" stroke-opacity="0.5" stroke-width="1.2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Testo del Brand: A.S. TOP CLEAN -->
+  <text x="130" y="52" 
+        text-anchor="middle" 
+        fill="#FFFFFF" 
+        font-family="'Montserrat', 'Plus Jakarta Sans', -apple-system, sans-serif" 
+        font-weight="800" 
+        font-size="19" 
+        letter-spacing="2.4">A.S. TOP CLEAN</text>
+
+  <!-- Sottotitolo del Brand: DETAILING & CAR CARE -->
+  <text x="130" y="68" 
+        text-anchor="middle" 
+        fill="#F5C342" 
+        font-family="'Montserrat', 'Plus Jakarta Sans', -apple-system, sans-serif" 
+        font-weight="600" 
+        font-size="8.8" 
+        letter-spacing="3.8">DETAILING &amp; CAR CARE</text>
+</svg>
+

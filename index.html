@@ -1,0 +1,1617 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A.S. Top Clean | Detailing Professionale &amp; Car Care</title>
+  <meta name="description" content="A.S. Top Clean è il punto di riferimento per il detailing auto in Italia. Trattamenti professionali di lucidatura, correzione vernice, protezione ceramica e cura degli interni.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#080E12">
+
+  <!-- Open Graph / SEO -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:site_name" content="A.S. Top Clean">
+  <meta property="og:title" content="A.S. Top Clean | Detailing Professionale &amp; Car Care">
+  <meta property="og:description" content="Il punto di riferimento per il detailing auto in Italia. Trattamenti esclusivi per mantenere la tua auto in perfette condizioni.">
+
+  <!-- Preconnect Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Montserrat:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Preload dell'immagine Hero ad altissima definizione per ottimizzazione Core Web Vitals (LCP) -->
+  <link rel="preload" as="image" href="assets/hero-bg.webp?v=4.0" type="image/webp" fetchpriority="high">
+
+  <!-- Foglio di stile principale -->
+  <link rel="stylesheet" href="css/style.css?v=9.4">
+</head>
+<body>
+  <!-- Link accessibile per saltare direttamente al contenuto principale -->
+  <a href="#main-content" class="skip-link">Salta al contenuto principale</a>
+
+  <!-- =========================================================================
+       FASE 1: HEADER E MENU DI NAVIGAZIONE PRINCIPALE
+       ========================================================================= -->
+  <header class="site-header" id="header">
+    <div class="header-container">
+      
+      <!-- AREA SINISTRA: LOGO A.S. TOP CLEAN -->
+      <a href="#home" class="header-logo-link" aria-label="A.S. Top Clean - Torna alla Home">
+        <img src="assets/logo.svg" alt="A.S. Top Clean - Detailing &amp; Car Care" class="site-logo" width="168" height="49">
+      </a>
+
+      <!-- AREA CENTRALE: NAVIGAZIONE DESKTOP -->
+      <nav class="nav-desktop" aria-label="Navigazione principale">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#servizi" class="nav-link">Servizi</a>
+          </li>
+          <li class="nav-item">
+            <a href="#lavori" class="nav-link">Lavori Eseguiti</a>
+          </li>
+          <li class="nav-item">
+            <a href="#chi-siamo" class="nav-link">Chi Siamo</a>
+          </li>
+          <li class="nav-item">
+            <a href="#faq" class="nav-link">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contatti" class="nav-link">Contatti</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- AREA DESTRA: AZIONI / PULSANTE DI CONTATTO & TOGGLE MOBILE -->
+      <div class="header-actions">
+        <!-- Pulsante Contattaci (Oro, visibile su desktop e su mobile) -->
+        <a href="#contatti" class="btn-contact btn-header-contact" id="headerContactBtn" aria-label="Contattaci su WhatsApp">
+          <svg class="icon-whatsapp" viewBox="0 0 24 24" fill="currentColor" width="16" height="16" aria-hidden="true" focusable="false">
+            <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2ZM12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.16 12.04 20.16C10.66 20.16 9.3 19.8 8.11 19.1L7.83 18.93L4.71 19.75L5.54 16.71L5.35 16.41C4.55 15.13 4.13 13.54 4.13 11.91C4.13 7.37 7.82 3.67 12.05 3.67ZM8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7.02 8.48 7.02 9.7C7.02 10.92 7.91 12.1 8.03 12.26C8.16 12.43 9.77 14.91 12.23 15.97C12.82 16.22 13.27 16.37 13.63 16.49C14.22 16.67 14.76 16.65 15.19 16.59C15.67 16.51 16.66 15.98 16.87 15.4C17.07 14.81 17.07 14.31 17.01 14.21C16.95 14.11 16.79 14.05 16.54 13.92C16.29 13.8 15.08 13.21 14.85 13.13C14.63 13.04 14.46 13 14.3 13.25C14.13 13.49 13.66 14.05 13.52 14.21C13.38 14.38 13.23 14.4 12.99 14.28C12.74 14.16 11.94 13.9 10.99 13.06C10.25 12.4 9.75 11.59 9.61 11.34C9.46 11.1 9.59 10.96 9.72 10.84C9.83 10.73 9.97 10.55 10.09 10.41C10.22 10.27 10.26 10.16 10.34 10C10.42 9.84 10.38 9.7 10.32 9.58C10.26 9.46 9.77 8.25 9.57 7.76C9.37 7.29 9.17 7.35 9.02 7.34C8.87 7.33 8.71 7.33 8.53 7.33Z"/>
+          </svg>
+          <span class="btn-text">Contattaci</span>
+          <svg class="btn-arrow" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+
+        <!-- Pulsante Menu Mobile (Hamburger accessibile con animazione in X) -->
+        <button type="button" 
+                class="mobile-menu-toggle" 
+                id="mobileMenuToggle" 
+                aria-expanded="false" 
+                aria-controls="mobileMenuDropdown" 
+                aria-label="Apri menu di navigazione">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- MENU MOBILE FULL-WIDTH (A TUTTA LARGHEZZA SOTTO L'HEADER) -->
+    <div class="mobile-menu-dropdown" id="mobileMenuDropdown" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Menu mobile a tutta larghezza">
+      <div class="mobile-menu-content">
+        <nav class="nav-mobile" aria-label="Navigazione mobile">
+          <ul class="nav-mobile-list">
+            <li class="nav-mobile-item">
+              <a href="#home" class="nav-mobile-link active" aria-current="page">
+                <span class="link-label">Home</span>
+                <span class="active-dot" aria-hidden="true"></span>
+              </a>
+            </li>
+            <li class="nav-mobile-item">
+              <a href="#servizi" class="nav-mobile-link">
+                <span class="link-label">Servizi</span>
+              </a>
+            </li>
+            <li class="nav-mobile-item">
+              <a href="#lavori" class="nav-mobile-link">
+                <span class="link-label">Lavori Eseguiti</span>
+              </a>
+            </li>
+            <li class="nav-mobile-item">
+              <a href="#chi-siamo" class="nav-mobile-link">
+                <span class="link-label">Chi Siamo</span>
+              </a>
+            </li>
+            <li class="nav-mobile-item">
+              <a href="#faq" class="nav-mobile-link">
+                <span class="link-label">FAQ</span>
+              </a>
+            </li>
+            <li class="nav-mobile-item">
+              <a href="#contatti" class="nav-mobile-link">
+                <span class="link-label">Contatti</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="mobile-menu-footer">
+          <div class="mobile-menu-divider"></div>
+          <a href="#contatti" class="btn-contact btn-contact-full" id="drawerContactBtn" aria-label="Contattaci su WhatsApp">
+            <svg class="icon-whatsapp" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+              <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2ZM12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.16 12.04 20.16C10.66 20.16 9.3 19.8 8.11 19.1L7.83 18.93L4.71 19.75L5.54 16.71L5.35 16.41C4.55 15.13 4.13 13.54 4.13 11.91C4.13 7.37 7.82 3.67 12.05 3.67ZM8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7.02 8.48 7.02 9.7C7.02 10.92 7.91 12.1 8.03 12.26C8.16 12.43 9.77 14.91 12.23 15.97C12.82 16.22 13.27 16.37 13.63 16.49C14.22 16.67 14.76 16.65 15.19 16.59C15.67 16.51 16.66 15.98 16.87 15.4C17.07 14.81 17.07 14.31 17.01 14.21C16.95 14.11 16.79 14.05 16.54 13.92C16.29 13.8 15.08 13.21 14.85 13.13C14.63 13.04 14.46 13 14.3 13.25C14.13 13.49 13.66 14.05 13.52 14.21C13.38 14.38 13.23 14.4 12.99 14.28C12.74 14.16 11.94 13.9 10.99 13.06C10.25 12.4 9.75 11.59 9.61 11.34C9.46 11.1 9.59 10.96 9.72 10.84C9.83 10.73 9.97 10.55 10.09 10.41C10.22 10.27 10.26 10.16 10.34 10C10.42 9.84 10.38 9.7 10.32 9.58C10.26 9.46 9.77 8.25 9.57 7.76C9.37 7.29 9.17 7.35 9.02 7.34C8.87 7.33 8.71 7.33 8.53 7.33Z"/>
+            </svg>
+            <span>Contattaci su WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       AREA PRINCIPALE
+       ========================================================================= -->
+  <main id="main-content">
+
+    <!-- =======================================================================
+         FASE 2: SEZIONE HERO & 4 DIFFERENZIATORI
+         ======================================================================= -->
+    <section id="home" class="hero-section" aria-label="Benvenuti su A.S. Top Clean">
+      
+      <!-- BANNER HERO PRINCIPALE (FOTOGRAFIA BMW M4 + TESTI A SINISTRA) -->
+      <div class="hero-banner">
+        <div class="hero-media-wrapper" aria-hidden="true">
+          <picture>
+            <source srcset="assets/hero-bg.webp?v=4.0" type="image/webp">
+            <img src="assets/hero-bg.jpg?v=4.0" 
+                 alt="Automobile sportiva nera lucida BMW M4 con trattamento ceramico in studio detailing A.S. Top Clean" 
+                 class="hero-bg-image" 
+                 width="2560" 
+                 height="1430" 
+                 fetchpriority="high" 
+                 loading="eager">
+          </picture>
+          <div class="hero-overlay-gradient"></div>
+          <div class="hero-overlay-vignette"></div>
+        </div>
+
+        <div class="hero-container">
+          <div class="hero-content">
+            <!-- Eyebrow dorato in linea con il mockup -->
+            <span class="hero-eyebrow">DETAILING PROFESSIONALE A 360°</span>
+
+            <!-- Titolo Principale Semantico H1 (con punto finale dorato) -->
+            <h1 class="hero-title">
+              <span class="title-line title-white">La tua auto,</span>
+              <span class="title-line title-gold">come nuova.</span>
+            </h1>
+
+            <!-- Descrizione del brand: 4 righe compatte ed equilibrate -->
+            <p class="hero-description">
+              A.S. Top Clean è il punto di riferimento per il detailing auto in Italia. Offriamo trattamenti professionali per mantenere la tua auto sempre in perfette condizioni, valorizzandone ogni dettaglio.
+            </p>
+
+            <!-- Call To Action Principale -->
+            <div class="hero-cta-wrapper">
+              <a href="#contatti" class="btn-hero-cta" aria-label="Richiedi un preventivo personalizzato per il detailing auto">
+                <span>Richiedi un preventivo</span>
+                <svg class="btn-cta-arrow" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FASCIA DEI 4 DIFFERENZIATORI (INTEGRATA SUBITO SOTTO IL BANNER HERO) -->
+      <div class="hero-differentiators" aria-label="I nostri punti di forza">
+        <div class="differentiators-container">
+          <ul class="differentiators-list">
+            
+            <!-- Elemento 1: Esperienza e professionalità -->
+            <li class="diff-item">
+              <div class="diff-icon-box" aria-hidden="true">
+                <svg class="diff-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2L3 7v6c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V7l-9-5z"/>
+                  <path d="M8.5 12.5l2.5 2.5 5-5"/>
+                </svg>
+              </div>
+              <div class="diff-text">
+                <strong class="diff-title">Esperienza e professionalità</strong>
+                <span class="diff-subtitle">nel settore automotive</span>
+              </div>
+            </li>
+
+            <!-- Elemento 2: Prodotti di alta qualità -->
+            <li class="diff-item">
+              <div class="diff-icon-box" aria-hidden="true">
+                <svg class="diff-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                </svg>
+              </div>
+              <div class="diff-text">
+                <strong class="diff-title">Prodotti di alta qualità</strong>
+                <span class="diff-subtitle">e sicuri per ogni superficie</span>
+              </div>
+            </li>
+
+            <!-- Elemento 3: Trattamenti personalizzati -->
+            <li class="diff-item">
+              <div class="diff-icon-box" aria-hidden="true">
+                <svg class="diff-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2L4 6v5.5c0 5.2 3.4 10.1 8 11.5 4.6-1.4 8-6.3 8-11.5V6l-8-4z"/>
+                  <path d="M8.5 13.5h7"/>
+                  <circle cx="9.5" cy="14" r="1"/>
+                  <circle cx="14.5" cy="14" r="1"/>
+                  <path d="M9.5 11l1-2h3l1 2"/>
+                </svg>
+              </div>
+              <div class="diff-text">
+                <strong class="diff-title">Trattamenti personalizzati</strong>
+                <span class="diff-subtitle">per ogni veicolo</span>
+              </div>
+            </li>
+
+            <!-- Elemento 4: Passione per i dettagli -->
+            <li class="diff-item">
+              <div class="diff-icon-box" aria-hidden="true">
+                <svg class="diff-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="9"/>
+                  <path d="M9.5 12l2 2 3.5-3.5"/>
+                  <path d="M12 3v2M12 19v2M3 12h2M19 12h2"/>
+                </svg>
+              </div>
+              <div class="diff-text">
+                <strong class="diff-title">Passione per i dettagli,</strong>
+                <span class="diff-subtitle">risultati garantiti</span>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- =======================================================================
+         SEZIONI SUCCESSIVE (PREDISPOSTE CON ANCORE, NESSUN CONTENUTO SVILUPPATO)
+         In attesa di istruzioni per le fasi successive.
+         ======================================================================= -->
+        <!-- =======================================================================
+         FASE 3 — SEZIONE I NOSTRI SERVIZI (ID: #servizi)
+         Composizione fedele al mockup: colonna introduttiva a sinistra,
+         griglia di 6 schede a destra (3x2) con immagini, icone dorate e testi.
+         ======================================================================= -->
+    <section id="servizi" class="services-section" aria-labelledby="services-title">
+      <div class="services-container">
+        <div class="services-layout">
+          
+          <!-- COLONNA SINISTRA: INTRODUZIONE COMMERCIALE -->
+          <div class="services-intro">
+            <span class="services-eyebrow">
+              <span class="eyebrow-bar" aria-hidden="true">|</span>
+              I NOSTRI SERVIZI
+            </span>
+            <h2 id="services-title" class="services-title">
+              Trattamenti professionali<br class="title-break"> per ogni esigenza
+            </h2>
+            <p class="services-description">
+              Offriamo una gamma completa di servizi di detailing, per la cura e la protezione della tua auto, con prodotti professionali e tecnologie all'avanguardia.
+            </p>
+            <div class="services-cta-wrapper">
+              <a href="https://wa.me/393911234567?text=Buongiorno%20A.S.%20Top%20Clean!%20Vorrei%20richiedere%20informazioni%20e%20un%20preventivo%20sui%20vostri%20servizi%20di%20detailing." 
+                 class="btn-services-all btn-contact" 
+                 id="servicesWhatsAppCta"
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 aria-label="Richiedi un preventivo per i servizi di detailing su WhatsApp">
+                <svg class="icon-whatsapp" viewBox="0 0 24 24" fill="currentColor" width="16" height="16" aria-hidden="true" focusable="false">
+                  <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2ZM12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.16 12.04 20.16C10.66 20.16 9.3 19.8 8.11 19.1L7.83 18.93L4.71 19.75L5.54 16.71L5.35 16.41C4.55 15.13 4.13 13.54 4.13 11.91C4.13 7.37 7.82 3.67 12.05 3.67ZM8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7.02 8.48 7.02 9.7C7.02 10.92 7.91 12.1 8.03 12.26C8.16 12.43 9.77 14.91 12.23 15.97C12.82 16.22 13.27 16.37 13.63 16.49C14.22 16.67 14.76 16.65 15.19 16.59C15.67 16.51 16.66 15.98 16.87 15.4C17.07 14.81 17.07 14.31 17.01 14.21C16.95 14.11 16.79 14.05 16.54 13.92C16.29 13.8 15.08 13.21 14.85 13.13C14.63 13.04 14.46 13 14.3 13.25C14.13 13.49 13.66 14.05 13.52 14.21C13.38 14.38 13.23 14.4 12.99 14.28C12.74 14.16 11.94 13.9 10.99 13.06C10.25 12.4 9.75 11.59 9.61 11.34C9.46 11.1 9.59 10.96 9.72 10.84C9.83 10.73 9.97 10.55 10.09 10.41C10.22 10.27 10.26 10.16 10.34 10C10.42 9.84 10.38 9.7 10.32 9.58C10.26 9.46 9.77 8.25 9.57 7.76C9.37 7.29 9.17 7.35 9.02 7.34C8.87 7.33 8.71 7.33 8.53 7.33Z"/>
+                </svg>
+                <span>Richiedi preventivo su WhatsApp</span>
+                <svg class="btn-services-arrow" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- COLONNA DESTRA: GRIGLIA / SLIDER DELLE 6 SCHEDE SERVIZI (3x2 Desktop, Slider Touch su Mobile) -->
+          <div class="services-slider-wrapper">
+            <div class="services-grid" id="servicesGrid" role="list" aria-label="Elenco dei trattamenti di detailing">
+<article class="service-card" role="listitem">
+              <div class="service-card-media">
+                <picture>
+                  <source srcset="assets/lavaggio-detailing.webp?v=4.0" type="image/webp">
+                  <img src="assets/lavaggio-detailing.jpg?v=4.0" 
+                       alt="Lavaggio detailing professionale auto con schiuma attiva e guanto in microfibra" 
+                       class="service-card-image" 
+                       width="800" 
+                       height="480" 
+                       loading="lazy" 
+                       decoding="async">
+                </picture>
+              </div>
+              <div class="service-card-body">
+                <div class="service-card-header">
+                  <span class="service-card-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 11l2-5h10l2 5M3 11h18v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-6z"/>
+                      <circle cx="7.5" cy="15.5" r="1.5"/>
+                      <circle cx="16.5" cy="15.5" r="1.5"/>
+                      <path d="M12 2v2M8 4l1 1M16 4l-1 1"/>
+                    </svg>
+                  </span>
+                  <h3 class="service-card-title">Lavaggio Detailing</h3>
+                </div>
+                <p class="service-card-desc">
+                  Pulizia profonda di interni ed esterni, con prodotti professionali.
+                </p>
+                <button type="button" class="service-card-link btn-open-service-modal" data-service-id="lavaggio-detailing" aria-haspopup="dialog" aria-label="Scopri i dettagli del servizio Lavaggio Detailing e richiedi preventivo su WhatsApp">
+                  <span>Scopri di più</span>
+                  <svg class="service-link-arrow" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </article>
+
+            <!-- Scheda 2: Protezione Ceramica -->
+            <article class="service-card" role="listitem">
+              <div class="service-card-media">
+                <picture>
+                  <source srcset="assets/protezione-ceramica.webp?v=4.0" type="image/webp">
+                  <img src="assets/protezione-ceramica.jpg?v=4.0" 
+                       alt="Trattamento di protezione ceramica auto con finitura a specchio e gocce idrofobiche" 
+                       class="service-card-image" 
+                       width="800" 
+                       height="480" 
+                       loading="lazy" 
+                       decoding="async">
+                </picture>
+              </div>
+              <div class="service-card-body">
+                <div class="service-card-header">
+                  <span class="service-card-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12 2l8 4v6c0 5.25-3.5 10-8 11-4.5-1-8-5.75-8-11V6l8-4z"/>
+                      <path d="M12 7l1.5 3 3.5.5-2.5 2.5.5 3.5-3-1.5-3 1.5.5-3.5L7 10.5l3.5-.5z"/>
+                    </svg>
+                  </span>
+                  <h3 class="service-card-title">Protezione Ceramica</h3>
+                </div>
+                <p class="service-card-desc">
+                  Protezione a lunga durata per una brillantezza senza compromessi.
+                </p>
+                <button type="button" class="service-card-link btn-open-service-modal" data-service-id="protezione-ceramica" aria-haspopup="dialog" aria-label="Scopri i dettagli del servizio Protezione Ceramica e richiedi preventivo su WhatsApp">
+                  <span>Scopri di più</span>
+                  <svg class="service-link-arrow" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </article>
+
+            <!-- Scheda 3: Trattamento Interni -->
+            <article class="service-card" role="listitem">
+              <div class="service-card-media">
+                <picture>
+                  <source srcset="assets/trattamento-interni.webp?v=4.0" type="image/webp">
+                  <img src="assets/trattamento-interni.jpg?v=4.0" 
+                       alt="Trattamento interni auto di lusso in pelle nera e finiture in carbonio" 
+                       class="service-card-image" 
+                       width="800" 
+                       height="480" 
+                       loading="lazy" 
+                       decoding="async">
+                </picture>
+              </div>
+              <div class="service-card-body">
+                <div class="service-card-header">
+                  <span class="service-card-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M6 4h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/>
+                      <path d="M9 4v14M15 4v14M4 12h16"/>
+                      <path d="M7 20h10"/>
+                    </svg>
+                  </span>
+                  <h3 class="service-card-title">Trattamento Interni</h3>
+                </div>
+                <p class="service-card-desc">
+                  Igienizzazione e cura dei materiali interni, per un abitacolo perfetto.
+                </p>
+                <button type="button" class="service-card-link btn-open-service-modal" data-service-id="trattamento-interni" aria-haspopup="dialog" aria-label="Scopri i dettagli del servizio Trattamento Interni e richiedi preventivo su WhatsApp">
+                  <span>Scopri di più</span>
+                  <svg class="service-link-arrow" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </article>
+
+            <!-- Scheda 4: Lucidatura e Correzione -->
+            <article class="service-card" role="listitem">
+              <div class="service-card-media">
+                <picture>
+                  <source srcset="assets/lucidatura-correzione.webp?v=4.0" type="image/webp">
+                  <img src="assets/lucidatura-correzione.jpg?v=4.0" 
+                       alt="Lucidatura e correzione della vernice auto con lucidatrice orbitale e tampone giallo" 
+                       class="service-card-image" 
+                       width="800" 
+                       height="480" 
+                       loading="lazy" 
+                       decoding="async">
+                </picture>
+              </div>
+              <div class="service-card-body">
+                <div class="service-card-header">
+                  <span class="service-card-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="8"/>
+                      <circle cx="12" cy="12" r="3"/>
+                      <path d="M12 2v2M12 20v2M2 12h2M20 12h2"/>
+                      <path d="M17 7l1.5-1.5M5.5 18.5L7 17M7 7L5.5 5.5M18.5 18.5L17 17"/>
+                    </svg>
+                  </span>
+                  <h3 class="service-card-title">Lucidatura e Correzione</h3>
+                </div>
+                <p class="service-card-desc">
+                  Rimuoviamo graffi e difetti per una verniciatura impeccabile.
+                </p>
+                <button type="button" class="service-card-link btn-open-service-modal" data-service-id="lucidatura-correzione" aria-haspopup="dialog" aria-label="Scopri i dettagli del servizio Lucidatura e Correzione e richiedi preventivo su WhatsApp">
+                  <span>Scopri di più</span>
+                  <svg class="service-link-arrow" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </article>
+
+            <!-- Scheda 5: Restauro Fari -->
+            <article class="service-card" role="listitem">
+              <div class="service-card-media">
+                <picture>
+                  <source srcset="assets/restauro-fari.webp?v=4.0" type="image/webp">
+                  <img src="assets/restauro-fari.jpg?v=4.0" 
+                       alt="Restauro fari auto con lenti a LED completamente trasparenti e fascio luminoso nitido" 
+                       class="service-card-image" 
+                       width="800" 
+                       height="480" 
+                       loading="lazy" 
+                       decoding="async">
+                </picture>
+              </div>
+              <div class="service-card-body">
+                <div class="service-card-header">
+                  <span class="service-card-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 8a8 8 0 0 1 8-6v16a8 8 0 0 1-8-6V8z"/>
+                      <path d="M16 6l5-1M16 10h6M16 14h6M16 18l5 1"/>
+                    </svg>
+                  </span>
+                  <h3 class="service-card-title">Restauro Fari</h3>
+                </div>
+                <p class="service-card-desc">
+                  Ritrova la trasparenza e la sicurezza dei tuoi fari.
+                </p>
+                <button type="button" class="service-card-link btn-open-service-modal" data-service-id="restauro-fari" aria-haspopup="dialog" aria-label="Scopri i dettagli del servizio Restauro Fari e richiedi preventivo su WhatsApp">
+                  <span>Scopri di più</span>
+                  <svg class="service-link-arrow" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </article>
+
+            <!-- Scheda 6: Sanificazione Auto -->
+            <article class="service-card" role="listitem">
+              <div class="service-card-media">
+                <picture>
+                  <source srcset="assets/sanificazione-auto.webp?v=4.0" type="image/webp">
+                  <img src="assets/sanificazione-auto.jpg?v=4.0" 
+                       alt="Trattamento di sanificazione a vapore secco e igienizzazione profonda dell'abitacolo auto" 
+                       class="service-card-image" 
+                       width="800" 
+                       height="480" 
+                       loading="lazy" 
+                       decoding="async">
+                </picture>
+              </div>
+              <div class="service-card-body">
+                <div class="service-card-header">
+                  <span class="service-card-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                      <path d="M9 12l2 2 4-4"/>
+                    </svg>
+                  </span>
+                  <h3 class="service-card-title">Sanificazione Auto</h3>
+                </div>
+                <p class="service-card-desc">
+                  Eliminiamo batteri, cattivi odori e allergeni per un ambiente più sicuro.
+                </p>
+                <button type="button" class="service-card-link btn-open-service-modal" data-service-id="sanificazione-auto" aria-haspopup="dialog" aria-label="Scopri i dettagli del servizio Sanificazione Auto e richiedi preventivo su WhatsApp">
+                  <span>Scopri di più</span>
+                  <svg class="service-link-arrow" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </article>
+            </div>
+
+            <!-- Controlli Slider Mobile (Frecce e Dots indicatori) -->
+            <div class="services-slider-nav" aria-label="Navigazione schede servizi">
+              <button class="slider-arrow slider-prev" id="servicesSliderPrev" aria-label="Scheda precedente" type="button">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                  <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+              </button>
+              <div class="services-slider-dots" id="servicesSliderDots" role="tablist" aria-label="Selettore schede">
+                <button class="slider-dot active" role="tab" aria-selected="true" aria-label="Scheda 1 di 6: Lavaggio Detailing" data-index="0" type="button"></button>
+                <button class="slider-dot" role="tab" aria-selected="false" aria-label="Scheda 2 di 6: Protezione Ceramica" data-index="1" type="button"></button>
+                <button class="slider-dot" role="tab" aria-selected="false" aria-label="Scheda 3 di 6: Trattamento Interni" data-index="2" type="button"></button>
+                <button class="slider-dot" role="tab" aria-selected="false" aria-label="Scheda 4 di 6: Lucidatura e Correzione" data-index="3" type="button"></button>
+                <button class="slider-dot" role="tab" aria-selected="false" aria-label="Scheda 5 di 6: Restauro Fari" data-index="4" type="button"></button>
+                <button class="slider-dot" role="tab" aria-selected="false" aria-label="Scheda 6 di 6: Sanificazione Auto" data-index="5" type="button"></button>
+              </div>
+              <button class="slider-arrow slider-next" id="servicesSliderNext" aria-label="Scheda successiva" type="button">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+        <!-- =======================================================================
+         FASE 4 — SEZIONE LAVORI ESEGUITI (ID: #lavori)
+         Riproduzione fedele del mockup: area introduttiva scura a sinistra,
+         galleria di 8 fotografie (4x2) a destra con frecce in alto e dots in basso.
+         ======================================================================= -->
+    <section id="lavori" class="works-section" aria-labelledby="works-title">
+      <div class="works-container">
+        <div class="works-layout">
+          
+          <!-- AREA SINISTRA: INTRODUZIONE COMMERCIALE -->
+          <div class="works-intro">
+            <span class="works-eyebrow">LAVORI ESEGUITI</span>
+            <h2 id="works-title" class="works-title">
+              Il nostro lavoro,<br class="title-break"> parla da solo
+            </h2>
+            <p class="works-description">
+              Ogni auto è unica, e merita un trattamento su misura. Scopri alcuni dei nostri lavori più recenti e lasciati ispirare dal risultato finale.
+            </p>
+            <div class="works-cta-wrapper">
+              <button type="button" 
+                      class="btn-works-outline" 
+                      id="openWorksModalBtn" 
+                      aria-haspopup="dialog" 
+                      aria-label="Guarda tutti i lavori di detailing eseguiti e apri la galleria completa">
+                <span>Guarda tutti i lavori</span>
+                <svg class="btn-works-arrow" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- AREA DESTRA: GALLERIA FOTOGRAFICA (4x2 DESKTOP, CAROUSEL RESPONSIVE) -->
+          <div class="works-gallery-wrapper">
+            
+            <!-- Controlli superiori: frecce < e > allineate a destra del titolo della galleria -->
+            <div class="works-gallery-header">
+              <div class="works-gallery-controls" aria-label="Controlli galleria fotografica">
+                <button class="works-arrow works-prev" id="worksGalleryPrev" aria-label="Visualizza immagini precedenti" type="button">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                  </svg>
+                </button>
+                <button class="works-arrow works-next" id="worksGalleryNext" aria-label="Visualizza immagini successive" type="button">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- Griglia di 8 fotografie disposte in due righe da 4 colonne sul desktop -->
+            <div class="works-gallery-grid" id="worksGalleryGrid" role="region" aria-label="Galleria fotografica lavori di detailing eseguiti">
+              
+              <!-- 1. Cerchio sportivo e dettagli pinza freno -->
+              <div class="works-item">
+                <picture>
+                  <source srcset="assets/lavoro-1-cerchio.webp?v=4.0" type="image/webp">
+                  <img src="assets/lavoro-1-cerchio.jpg?v=4.0" 
+                       alt="Dettaglio di un cerchio sportivo nero forgiato con pinza freno dorata dopo trattamento detailing" 
+                       class="works-image" 
+                       width="640" 
+                       height="384" 
+                       loading="lazy" 
+                       decoding="async">
+                </picture>
+              </div>
+
+              <!-- 2. Sedile in pelle nera trattato e protetto -->
+              <div class="works-item">
+                <picture>
+                  <source srcset="assets/lavoro-2-interni.webp?v=4.0" type="image/webp">
+                  <img src="assets/lavoro-2-interni.jpg?v=4.0" 
+                       alt="Interni in pelle nera con cuciture artigianali accuratamente puliti e trattati" 
+                       class="works-image" 
+                       width="640" 
+                       height="384" 
+                       loading="lazy" 
+                       decoding="async">
+                </picture>
+              </div>
+
+              <!-- 3. Parte posteriore con fanali rossi accesi -->
+              <div class="works-item">
+                <picture>
+                  <source srcset="assets/lavoro-3-posteriore.webp?v=4.1" type="image/webp">
+                  <img src="assets/lavoro-3-posteriore.jpg?v=4.1" 
+                       alt="Parte posteriore di automobile premium nera con fanali a LED rossi e finitura lucida" 
+                       class="works-image" 
+                       width="640" 
+                       height="384" 
+                       loading="lazy" 
+                       decoding="async">
+                </picture>
+              </div>
+
+              <!-- 4. Linee scolpite della carrozzeria e riflessi di luce -->
+              <div class="works-item">
+                <picture>
+                  <source srcset="assets/lavoro-4-carrozzeria.webp?v=4.0" type="image/webp">
+                  <img src="assets/lavoro-4-carrozzeria.jpg?v=4.0" 
+                       alt="Dettaglio della carrozzeria nera lucidata a specchio con riflessi lineari del centro detailing" 
+                       class="works-image" 
+                       width="640" 
+                       height="384" 
+                       loading="lazy" 
+                       decoding="async">
+                </picture>
+              </div>
+
+              <!-- 5. Secondo dettaglio ruota e cerchio sportivo -->
+              <div class="works-item">
+                <picture>
+                  <source srcset="assets/lavoro-5-cerchio.webp?v=4.0" type="image/webp">
+                  <img src="assets/lavoro-5-cerchio.jpg?v=4.0" 
+                       alt="Secondo dettaglio di un cerchio in lega e pneumatico trattato su pavimento scuro lucido" 
+                       class="works-image" 
+                       width="640" 
+                       height="384" 
+                       loading="lazy" 
+                       decoding="async">
+                </picture>
+              </div>
+
+              <!-- 6. Dettagli console centrale e volante in pelle -->
+              <div class="works-item">
+                <picture>
+                  <source srcset="assets/lavoro-6-interni.webp?v=4.0" type="image/webp">
+                  <img src="assets/lavoro-6-interni.jpg?v=4.0" 
+                       alt="Interni in pelle nera e superfici della console centrale con finitura impeccabile" 
+                       class="works-image" 
+                       width="640" 
+                       height="384" 
+                       loading="lazy" 
+                       decoding="async">
+                </picture>
+              </div>
+
+              <!-- 7. Primo piano di faro moderno e trasparente -->
+              <div class="works-item">
+                <picture>
+                  <source srcset="assets/lavoro-7-faro.webp?v=4.0" type="image/webp">
+                  <img src="assets/lavoro-7-faro.jpg?v=4.0" 
+                       alt="Primo piano di faro a LED moderno completamente trasparente e nitido dopo trattamento" 
+                       class="works-image" 
+                       width="640" 
+                       height="384" 
+                       loading="lazy" 
+                       decoding="async">
+                </picture>
+              </div>
+
+              <!-- 8. Finitura ceramica e riflessi profondi -->
+              <div class="works-item">
+                <picture>
+                  <source srcset="assets/lavoro-8-finitura.webp?v=4.0" type="image/webp">
+                  <img src="assets/lavoro-8-finitura.jpg?v=4.0" 
+                       alt="Dettaglio di carrozzeria trattata con protezione ceramica ed effetto bagnato profondo" 
+                       class="works-image" 
+                       width="640" 
+                       height="384" 
+                       loading="lazy" 
+                       decoding="async">
+                </picture>
+              </div>
+
+            </div>
+
+            <!-- Indicatori di posizione (Dots) sotto la galleria -->
+            <div class="works-gallery-dots" id="worksGalleryDots" role="tablist" aria-label="Selettore pagina galleria">
+              <button class="works-dot active" role="tab" aria-selected="true" aria-label="Visualizza prime immagini della galleria" data-page="0" type="button"></button>
+              <button class="works-dot" role="tab" aria-selected="false" aria-label="Visualizza gruppo 2 della galleria" data-page="1" type="button"></button>
+              <button class="works-dot" role="tab" aria-selected="false" aria-label="Visualizza gruppo 3 della galleria" data-page="2" type="button"></button>
+              <button class="works-dot" role="tab" aria-selected="false" aria-label="Visualizza gruppo 4 della galleria" data-page="3" type="button"></button>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- =======================================================================
+         FASE 5 — SEZIONE CHI SIAMO (ID: #chi-siamo)
+         Layout a tre aree orizzontali:
+         - Area A: Fotografia orizzontale del professionista al lavoro
+         - Area B: Presentazione commerciale con 4 indicatori di fiducia
+         - Area C: Fotografia verticale con frase ispirazionale sovrapposta in corsivo
+         ======================================================================= -->
+    <section id="chi-siamo" class="about-section" aria-labelledby="about-title">
+      <div class="about-container">
+        <div class="about-grid">
+
+          <!-- AREA A — Fotografia del professionista al lavoro -->
+          <div class="about-photo-primary">
+            <picture>
+              <source srcset="assets/chi-siamo-professionista.webp?v=5.0" type="image/webp">
+              <img src="assets/chi-siamo-professionista.jpg?v=5.0"
+                   alt="Professionista di detailing auto A.S. Top Clean che esegue la lucidatura e correzione della carrozzeria con lucidatrice professionale rotorbitale"
+                   class="about-img about-img-primary"
+                   width="1200"
+                   height="896"
+                   loading="lazy">
+            </picture>
+          </div>
+
+          <!-- AREA B — Presentazione aziendale & 4 indicatori di fiducia -->
+          <div class="about-content">
+            <div class="about-title-group">
+              <span class="about-eyebrow">CHI SIAMO</span>
+              <h2 id="about-title" class="about-heading">
+                Passione, esperienza <br class="heading-br">e attenzione ai dettagli
+              </h2>
+            </div>
+            <p class="about-description">
+              A.S. Top Clean nasce dalla passione per le auto e dal desiderio di offrire un servizio di detailing di alto livello. Mettiamo la nostra esperienza e la nostra cura in ogni intervento, utilizzando solo prodotti professionali e tecnologie all'avanguardia.
+            </p>
+
+            <!-- Quattro indicatori di fiducia -->
+            <div class="about-trust-indicators" role="list">
+              <!-- Indicatore 1: Esperienza -->
+              <div class="trust-indicator-item" role="listitem">
+                <div class="trust-indicator-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="9.5"></circle>
+                    <polyline points="8.5 12 11 14.5 15.5 9.5"></polyline>
+                  </svg>
+                </div>
+                <div class="trust-indicator-text">
+                  <span class="trust-indicator-title">Esperienza</span>
+                  <span class="trust-indicator-desc">nel settore</span>
+                </div>
+              </div>
+
+              <!-- Indicatore 2: Prodotti -->
+              <div class="trust-indicator-item" role="listitem">
+                <div class="trust-indicator-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 3h6M10 3v4l-4 7a4 4 0 0 0 3.5 6h5a4 4 0 0 0 3.5-6l-4-7V3"></path>
+                    <line x1="8" y1="14" x2="16" y2="14"></line>
+                  </svg>
+                </div>
+                <div class="trust-indicator-text">
+                  <span class="trust-indicator-title">Prodotti</span>
+                  <span class="trust-indicator-desc">professionali</span>
+                </div>
+              </div>
+
+              <!-- Indicatore 3: Tecnologie -->
+              <div class="trust-indicator-item" role="listitem">
+                <div class="trust-indicator-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                  </svg>
+                </div>
+                <div class="trust-indicator-text">
+                  <span class="trust-indicator-title">Tecnologie</span>
+                  <span class="trust-indicator-desc">avanzate</span>
+                </div>
+              </div>
+
+              <!-- Indicatore 4: Clienti -->
+              <div class="trust-indicator-item" role="listitem">
+                <div class="trust-indicator-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                </div>
+                <div class="trust-indicator-text">
+                  <span class="trust-indicator-title">Clienti</span>
+                  <span class="trust-indicator-desc">soddisfatti</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- AREA C — Fotografia verticale con frase sovrapposta -->
+          <div class="about-photo-secondary">
+            <picture>
+              <source srcset="assets/chi-siamo-riflesso.webp?v=5.0" type="image/webp">
+              <img src="assets/chi-siamo-riflesso.jpg?v=5.0"
+                   alt="Dettaglio della carrozzeria di un'automobile nera trattata con protezione ceramica e finitura lucida a specchio"
+                   class="about-img about-img-secondary"
+                   width="896"
+                   height="1200"
+                   loading="lazy">
+            </picture>
+            <div class="about-quote-overlay">
+              <blockquote class="about-quote">
+                <span class="quote-text">La cura<br>della tua auto<br>è la nostra<br><em class="quote-emphasis">passione.</em></span>
+                <span class="quote-underline" aria-hidden="true"></span>
+              </blockquote>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         FASE 6 — SEZIONE PERCHÉ SCEGLIERCI (ID: #perche-sceglierci)
+         Layout a due aree su fondo chiaro:
+         - Sinistra: Fotografia automobilistica ampia con riflessi di detailing
+         - Destra: Contenuto commerciale con griglia 2x2 dei quattro motivi di fiducia
+         ======================================================================= -->
+    <section id="perche-sceglierci" class="why-us-section" aria-labelledby="why-us-title">
+      <div class="why-us-container">
+        <div class="why-us-grid">
+
+          <!-- AREA SINISTRA — Fotografia Automotive -->
+          <div class="why-us-media">
+            <picture>
+              <source srcset="assets/perche-sceglierci-auto.webp?v=6.0" type="image/webp">
+              <img src="assets/perche-sceglierci-auto.jpg?v=6.0"
+                   alt="Automobile sportiva nera lucida trattata con detailing professionale e protezione ceramica in officina specializzata"
+                   class="why-us-img"
+                   width="1200"
+                   height="896"
+                   loading="lazy">
+            </picture>
+          </div>
+
+          <!-- AREA DESTRA — Contenuto e 4 motivi -->
+          <div class="why-us-content">
+            <div class="why-us-title-group">
+              <span class="why-us-eyebrow">PERCHÉ SCEGLIERCI</span>
+              <h2 id="why-us-title" class="why-us-heading">
+                Il tuo partner di fiducia <br class="heading-br">per la cura dell'auto
+              </h2>
+            </div>
+            <p class="why-us-description">
+              Scegliere A.S. Top Clean significa affidare la tua auto a un servizio attento ai dettagli, con trattamenti professionali, prodotti selezionati e soluzioni pensate per valorizzare ogni veicolo.
+            </p>
+
+            <!-- Griglia dei 4 motivi per sceglierci (2x2) -->
+            <div class="why-us-features-grid" role="list">
+
+              <!-- Motivo 1: Qualità Garantita -->
+              <div class="why-us-feature-item" role="listitem">
+                <div class="why-us-feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    <polyline points="9 12 11 14.5 15 10"></polyline>
+                  </svg>
+                </div>
+                <div class="why-us-feature-body">
+                  <h3 class="why-us-feature-title">Qualità Garantita</h3>
+                  <p class="why-us-feature-desc">Prestiamo attenzione a ogni dettaglio per offrire una finitura curata e professionale.</p>
+                </div>
+              </div>
+
+              <!-- Motivo 2: Prodotti Premium -->
+              <div class="why-us-feature-item" role="listitem">
+                <div class="why-us-feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+                    <path d="M12 9v5"></path>
+                    <circle cx="12" cy="16.5" r="0.75" fill="currentColor"></circle>
+                  </svg>
+                </div>
+                <div class="why-us-feature-body">
+                  <h3 class="why-us-feature-title">Prodotti Premium</h3>
+                  <p class="why-us-feature-desc">Selezioniamo prodotti professionali adatti ai materiali e alle esigenze del veicolo.</p>
+                </div>
+              </div>
+
+              <!-- Motivo 3: Personale Esperto -->
+              <div class="why-us-feature-item" role="listitem">
+                <div class="why-us-feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                    <polyline points="16 11 18 13 22 9"></polyline>
+                  </svg>
+                </div>
+                <div class="why-us-feature-body">
+                  <h3 class="why-us-feature-title">Personale Esperto</h3>
+                  <p class="why-us-feature-desc">Ogni intervento viene eseguito con attenzione, precisione e cura delle superfici.</p>
+                </div>
+              </div>
+
+              <!-- Motivo 4: Risultati Visibili -->
+              <div class="why-us-feature-item" role="listitem">
+                <div class="why-us-feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"></path>
+                    <path d="M5 3v4"></path>
+                    <path d="M3 5h4"></path>
+                  </svg>
+                </div>
+                <div class="why-us-feature-body">
+                  <h3 class="why-us-feature-title">Risultati Visibili</h3>
+                  <p class="why-us-feature-desc">Trattamenti studiati per valorizzare l'aspetto dell'auto e la qualità delle sue finiture.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- =======================================================================
+         FASE 7 — SEZIONE DOMANDE FREQUENTI (ID: #faq)
+         Layout a due colonne su fondo chiaro:
+         - Colonna sinistra: Titolo, descrizione introduttiva e pulsante CTA verso i contatti
+         - Colonna destra: Accordion accessibile con 8 domande frequenti e risposte
+         ======================================================================= -->
+    <section id="faq" class="faq-section" aria-labelledby="faq-title">
+      <div class="faq-container">
+        <div class="faq-layout">
+
+          <!-- COLONNA SINISTRA: INTRODUZIONE & CTA CONTATTI -->
+          <div class="faq-intro">
+            <span class="faq-eyebrow">HAI QUALCHE DUBBIO?</span>
+            <h2 id="faq-title" class="faq-title">Domande frequenti</h2>
+            <p class="faq-description">
+              Scopri di più sui nostri servizi di detailing, sui trattamenti disponibili e su come prenderci cura della tua auto.
+            </p>
+            <a href="#contatti" class="btn-faq-contact">
+              <span class="btn-faq-text">Hai altre domande? Contattaci</span>
+              <svg class="btn-faq-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <!-- COLONNA DESTRA: ACCORDION DELLE 8 DOMANDE -->
+          <div class="faq-accordion" id="faqAccordion" role="region" aria-label="Domande frequenti sul detailing">
+
+            <!-- FAQ 1: Che cos'è il detailing auto? -->
+            <div class="faq-item">
+              <button type="button" class="faq-trigger" id="faq-trigger-1" aria-expanded="false" aria-controls="faq-panel-1">
+                <span class="faq-question">Che cos'è il detailing auto?</span>
+                <span class="faq-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line class="icon-v" x1="12" y1="5" x2="12" y2="19"></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                  </svg>
+                </span>
+              </button>
+              <div class="faq-panel" id="faq-panel-1" role="region" aria-labelledby="faq-trigger-1">
+                <div class="faq-panel-inner">
+                  <p class="faq-answer">
+                    Il detailing auto è un insieme di trattamenti professionali dedicati alla pulizia approfondita, alla cura e alla valorizzazione degli interni e degli esterni del veicolo. Gli interventi vengono scelti in base alle condizioni dell'auto e al risultato desiderato.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 2: Quali servizi di detailing offrite? -->
+            <div class="faq-item">
+              <button type="button" class="faq-trigger" id="faq-trigger-2" aria-expanded="false" aria-controls="faq-panel-2">
+                <span class="faq-question">Quali servizi di detailing offrite?</span>
+                <span class="faq-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line class="icon-v" x1="12" y1="5" x2="12" y2="19"></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                  </svg>
+                </span>
+              </button>
+              <div class="faq-panel" id="faq-panel-2" role="region" aria-labelledby="faq-trigger-2">
+                <div class="faq-panel-inner">
+                  <p class="faq-answer">
+                    Offriamo servizi di lavaggio detailing, protezione ceramica, trattamento degli interni, lucidatura e correzione della vernice, restauro dei fari e sanificazione dell'auto. La soluzione più adatta viene valutata in base alle esigenze del veicolo.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 3: Quanto costa un trattamento di detailing? -->
+            <div class="faq-item">
+              <button type="button" class="faq-trigger" id="faq-trigger-3" aria-expanded="false" aria-controls="faq-panel-3">
+                <span class="faq-question">Quanto costa un trattamento di detailing?</span>
+                <span class="faq-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line class="icon-v" x1="12" y1="5" x2="12" y2="19"></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                  </svg>
+                </span>
+              </button>
+              <div class="faq-panel" id="faq-panel-3" role="region" aria-labelledby="faq-trigger-3">
+                <div class="faq-panel-inner">
+                  <p class="faq-answer">
+                    Il prezzo dipende dal tipo di servizio, dalle dimensioni del veicolo e dalle condizioni iniziali. Contattaci per descriverci la tua auto e ricevere un preventivo personalizzato.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 4: Quanto tempo occorre per completare un trattamento? -->
+            <div class="faq-item">
+              <button type="button" class="faq-trigger" id="faq-trigger-4" aria-expanded="false" aria-controls="faq-panel-4">
+                <span class="faq-question">Quanto tempo occorre per completare un trattamento?</span>
+                <span class="faq-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line class="icon-v" x1="12" y1="5" x2="12" y2="19"></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                  </svg>
+                </span>
+              </button>
+              <div class="faq-panel" id="faq-panel-4" role="region" aria-labelledby="faq-trigger-4">
+                <div class="faq-panel-inner">
+                  <p class="faq-answer">
+                    I tempi variano in base al servizio richiesto e allo stato del veicolo. Dopo aver valutato le tue esigenze, ti forniremo un'indicazione più precisa sulla durata dell'intervento.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 5: Che cos'è la protezione ceramica e a cosa serve? -->
+            <div class="faq-item">
+              <button type="button" class="faq-trigger" id="faq-trigger-5" aria-expanded="false" aria-controls="faq-panel-5">
+                <span class="faq-question">Che cos'è la protezione ceramica e a cosa serve?</span>
+                <span class="faq-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line class="icon-v" x1="12" y1="5" x2="12" y2="19"></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                  </svg>
+                </span>
+              </button>
+              <div class="faq-panel" id="faq-panel-5" role="region" aria-labelledby="faq-trigger-5">
+                <div class="faq-panel-inner">
+                  <p class="faq-answer">
+                    La protezione ceramica crea uno strato protettivo sulla vernice che può facilitare la manutenzione e migliorare la resistenza agli agenti esterni. Durata e prestazioni dipendono dal prodotto utilizzato, dalla preparazione della superficie e dalla manutenzione successiva.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 6: È possibile trattare anche gli interni dell'auto? -->
+            <div class="faq-item">
+              <button type="button" class="faq-trigger" id="faq-trigger-6" aria-expanded="false" aria-controls="faq-panel-6">
+                <span class="faq-question">È possibile trattare anche gli interni dell'auto?</span>
+                <span class="faq-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line class="icon-v" x1="12" y1="5" x2="12" y2="19"></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                  </svg>
+                </span>
+              </button>
+              <div class="faq-panel" id="faq-panel-6" role="region" aria-labelledby="faq-trigger-6">
+                <div class="faq-panel-inner">
+                  <p class="faq-answer">
+                    Sì, gli interni possono essere sottoposti a trattamenti specifici per pulire e valorizzare le superfici, in base ai materiali presenti e alle loro condizioni.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 7: Come posso richiedere un preventivo? -->
+            <div class="faq-item">
+              <button type="button" class="faq-trigger" id="faq-trigger-7" aria-expanded="false" aria-controls="faq-panel-7">
+                <span class="faq-question">Come posso richiedere un preventivo?</span>
+                <span class="faq-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line class="icon-v" x1="12" y1="5" x2="12" y2="19"></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                  </svg>
+                </span>
+              </button>
+              <div class="faq-panel" id="faq-panel-7" role="region" aria-labelledby="faq-trigger-7">
+                <div class="faq-panel-inner">
+                  <p class="faq-answer">
+                    Puoi contattarci tramite WhatsApp oppure attraverso la sezione Contatti. Indicaci il modello della tua auto, il servizio che ti interessa e, se possibile, inviaci alcune fotografie per aiutarci a valutare la richiesta.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ 8: È necessario prenotare un appuntamento? -->
+            <div class="faq-item">
+              <button type="button" class="faq-trigger" id="faq-trigger-8" aria-expanded="false" aria-controls="faq-panel-8">
+                <span class="faq-question">È necessario prenotare un appuntamento?</span>
+                <span class="faq-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line class="icon-v" x1="12" y1="5" x2="12" y2="19"></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                  </svg>
+                </span>
+              </button>
+              <div class="faq-panel" id="faq-panel-8" role="region" aria-labelledby="faq-trigger-8">
+                <div class="faq-panel-inner">
+                  <p class="faq-answer">
+                    Ti consigliamo di contattarci prima di raggiungerci, così potremo verificare la disponibilità e concordare il momento più adatto per il servizio richiesto.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- =======================================================================
+         FASE 8 — SEZIONE CONTATTI & PRENOTAZIONE WHATSAPP (ID: #contatti)
+         Riproduzione fedele del mockup con pulsante CTA WhatsApp dedicato:
+         - Colonna 1: Eyebrow dorato "CONTATTI", Titolo e descrizione del servizio
+         - Colonna 2: Box CTA WhatsApp diretto per prenotazione rapida
+         - Colonna 3: Info dirette (+39 391 123 4567, info@astopclean.it, Via Roma 123 Milano, Italia) e social
+         - Sfondo ambiente car studio sul lato destro
+         ======================================================================= -->
+    <section id="contatti" class="contact-section" aria-labelledby="contact-heading">
+      <!-- Immagine di sfondo ambiente studio con auto scura sul lato destro -->
+      <div class="contact-bg-ambient" aria-hidden="true">
+        <picture>
+          <source srcset="assets/contatti-car-ambient.webp?v=8.3" type="image/webp">
+          <img src="assets/contatti-car-ambient.jpg?v=8.3" 
+               alt="" 
+               class="contact-ambient-img"
+               loading="lazy" 
+               width="1400" 
+               height="1303">
+        </picture>
+        <div class="contact-bg-overlay"></div>
+      </div>
+
+      <div class="contact-container">
+        <div class="contact-layout">
+
+          <!-- COLONNA 1: INTRODUZIONE (SINISTRA) -->
+          <div class="contact-intro-col">
+            <span class="contact-eyebrow">CONTATTI</span>
+            <h2 id="contact-heading" class="contact-heading">
+              Richiedi un preventivo o prenota il tuo trattamento
+            </h2>
+            <p class="contact-description">
+              Siamo a tua disposizione per qualsiasi informazione o per fissare un appuntamento. Contattaci direttamente su WhatsApp, ti risponderemo al più presto.
+            </p>
+          </div>
+
+          <!-- COLONNA 2: BOX CTA WHATSAPP (CENTRO) -->
+          <div class="contact-cta-col">
+            <div class="contact-cta-box">
+              <span class="contact-cta-eyebrow">PRENOTAZIONE RAPIDA</span>
+              <p class="contact-cta-lead">
+                Fissa il tuo lavaggio o richiedi un preventivo personalizzato direttamente su WhatsApp.
+              </p>
+              <a href="https://wa.me/393911234567?text=Buongiorno%20A.S.%20Top%20Clean!%20Vorrei%20prenotare%20un%20lavaggio%20o%20trattamento%20per%20la%20mia%20auto." 
+                 id="contactWhatsAppCta" 
+                 class="btn-contact-whatsapp" 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 aria-label="Prenota o richiedi informazioni su WhatsApp">
+                <span class="btn-wa-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                  </svg>
+                </span>
+                <span class="btn-wa-text">Prenota su WhatsApp</span>
+                <span class="btn-wa-arrow" aria-hidden="true">→</span>
+              </a>
+              <span class="contact-cta-hint">Risposta rapida durante gli orari di apertura del centro</span>
+            </div>
+          </div>
+
+          <!-- COLONNA 3: INFO DI CONTATTO & SOCIAL (DESTRA) -->
+          <div class="contact-info-col">
+            <div class="contact-direct-items">
+              <!-- Telefono -->
+              <a href="tel:+393911234567" class="contact-direct-item" aria-label="Telefono: +39 391 123 4567">
+                <span class="contact-info-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </span>
+                <span class="contact-info-text">+39 391 123 4567</span>
+              </a>
+
+              <!-- Email -->
+              <a href="mailto:info@astopclean.it" class="contact-direct-item" aria-label="Email: info@astopclean.it">
+                <span class="contact-info-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </span>
+                <span class="contact-info-text">info@astopclean.it</span>
+              </a>
+
+              <!-- Indirizzo -->
+              <div class="contact-direct-item contact-address-item">
+                <span class="contact-info-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </span>
+                <span class="contact-info-text">
+                  Via Roma 123<br>Milano, Italia
+                </span>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="contact-social-group">
+              <span class="contact-social-label">Seguici sui social</span>
+              <div class="contact-social-icons">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon-box" aria-label="Seguici su Instagram">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                  </svg>
+                </a>
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon-box" aria-label="Seguici su Facebook">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =======================================================================
+       FASE 9 — FOOTER ISTITUZIONALE | A.S. TOP CLEAN
+       Layout di chiusura premium 100% fedele al mockup originale:
+       - Sfondo antracite profondo (#04070A) coordinato con header e sezioni scure
+       - Barra principale:
+         * Sinistra: Logo ufficiale A.S. TOP CLEAN (Detailing & Car Care)
+         * Centro: Navigazione secondaria (Home, Servizi, Lavori Eseguiti, Chi Siamo, Perché Sceglierci, FAQ, Contatti)
+         * Destra: Pulsante CTA coordinato "Contattaci" con icona WhatsApp e freccia
+       - Linea divisoria sottile (1px solid rgba(255, 255, 255, 0.08))
+       - Barra inferiore:
+         * Sinistra: Copyright con anno dinamico (© [anno] A.S. TOP CLEAN. Tutti i diritti riservati.)
+         * Destra: Link legali Privacy Policy e Cookie Policy
+       ======================================================================= -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-container">
+      
+      <!-- AREA SUPERIORE ISTITUZIONALE (LOGO, NAVIGAZIONE, CTA) -->
+      <div class="footer-main">
+        <!-- Logo Ufficiale A.S. Top Clean -->
+        <a href="#home" class="footer-logo-link" aria-label="A.S. Top Clean - Torna alla Home">
+          <img src="assets/logo.svg" 
+               alt="A.S. Top Clean - Detailing &amp; Car Care" 
+               class="footer-logo" 
+               width="168" 
+               height="49" 
+               loading="lazy">
+        </a>
+
+        <!-- Testo descrittivo per SEO e Screen Reader (accessibilità completa) -->
+        <p class="sr-only">Ci prendiamo cura della tua auto con servizi professionali di detailing, trattamenti dedicati e attenzione ai dettagli.</p>
+
+        <!-- Navigazione Footer: Link alle sezioni interne del sito -->
+        <nav class="footer-nav" aria-label="Navigazione footer">
+          <ul class="footer-nav-list">
+            <li class="footer-nav-item">
+              <a href="#home" class="footer-nav-link active">Home</a>
+            </li>
+            <li class="footer-nav-item">
+              <a href="#servizi" class="footer-nav-link">Servizi</a>
+            </li>
+            <li class="footer-nav-item">
+              <a href="#lavori" class="footer-nav-link">Lavori Eseguiti</a>
+            </li>
+            <li class="footer-nav-item">
+              <a href="#chi-siamo" class="footer-nav-link">Chi Siamo</a>
+            </li>
+            <li class="footer-nav-item">
+              <a href="#faq" class="footer-nav-link">FAQ</a>
+            </li>
+            <li class="footer-nav-item">
+              <a href="#contatti" class="footer-nav-link">Contatti</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Pulsante Contattaci (Oro, coordinato con pulsante header e WhatsApp) -->
+        <div class="footer-actions">
+          <a href="#contatti" class="btn-contact btn-footer-contact" id="footerContactBtn" aria-label="Contattaci su WhatsApp">
+            <svg class="icon-whatsapp" viewBox="0 0 24 24" fill="currentColor" width="16" height="16" aria-hidden="true" focusable="false">
+              <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2ZM12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.16 12.04 20.16C10.66 20.16 9.3 19.8 8.11 19.1L7.83 18.93L4.71 19.75L5.54 16.71L5.35 16.41C4.55 15.13 4.13 13.54 4.13 11.91C4.13 7.37 7.82 3.67 12.05 3.67ZM8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7.02 8.48 7.02 9.7C7.02 10.92 7.91 12.1 8.03 12.26C8.16 12.43 9.77 14.91 12.23 15.97C12.82 16.22 13.27 16.37 13.63 16.49C14.22 16.67 14.76 16.65 15.19 16.59C15.67 16.51 16.66 15.98 16.87 15.4C17.07 14.81 17.07 14.31 17.01 14.21C16.95 14.11 16.79 14.05 16.54 13.92C16.29 13.8 15.08 13.21 14.85 13.13C14.63 13.04 14.46 13 14.3 13.25C14.13 13.49 13.66 14.05 13.52 14.21C13.38 14.38 13.23 14.4 12.99 14.28C12.74 14.16 11.94 13.9 10.99 13.06C10.25 12.4 9.75 11.59 9.61 11.34C9.46 11.1 9.59 10.96 9.72 10.84C9.83 10.73 9.97 10.55 10.09 10.41C10.22 10.27 10.26 10.16 10.34 10C10.42 9.84 10.38 9.7 10.32 9.58C10.26 9.46 9.77 8.25 9.57 7.76C9.37 7.29 9.17 7.35 9.02 7.34C8.87 7.33 8.71 7.33 8.53 7.33Z"/>
+            </svg>
+            <span class="btn-text">Contattaci</span>
+            <svg class="btn-arrow" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- LINEA DIVISORIA SOTTILE -->
+      <div class="footer-divider" aria-hidden="true"></div>
+
+      <!-- BARRA INFERIORE: COPYRIGHT DINAMICO E LINK LEGALI -->
+      <div class="footer-bottom">
+        <p class="footer-copyright">
+          &copy; <span id="currentYear">2026</span> A.S. TOP CLEAN. Tutti i diritti riservati.
+        </p>
+        <div class="footer-legal-links">
+          <a href="#privacy" class="footer-legal-link">Privacy Policy</a>
+          <span class="legal-separator" aria-hidden="true">|</span>
+          <a href="#cookies" class="footer-legal-link">Cookie Policy</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Script JavaScript vanilla -->
+  <script src="js/main.js?v=9.4"></script>
+
+  <!-- =======================================================================
+       POP-UP MODALE: DETTAGLI SERVIZIO & CTA WHATSAPP
+       Finestra di dialogo modale accessibile e pienamente responsive (Mobile, Tablet, Notebook)
+       ======================================================================= -->
+  <div class="service-modal-backdrop" id="serviceModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalServiceTitle">
+    <div class="service-modal-dialog" role="document">
+      
+      <!-- Testata con Immagine del Servizio e Pulsante Chiudi -->
+      <div class="service-modal-media-wrap">
+        <picture>
+          <source id="modalServicePicWebp" srcset="assets/lavaggio-detailing.webp?v=4.0" type="image/webp">
+          <img id="modalServiceImg" src="assets/lavaggio-detailing.jpg?v=4.0" alt="" class="service-modal-img" width="800" height="480">
+        </picture>
+        <div class="service-modal-media-overlay" aria-hidden="true"></div>
+        <button type="button" class="service-modal-close" id="closeServiceModalBtn" aria-label="Chiudi finestra dettagli servizio">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Corpo Informativo del Servizio -->
+      <div class="service-modal-body">
+        <span class="service-modal-eyebrow" id="modalServiceEyebrow">TRATTAMENTO PROFESSIONALE</span>
+        <h3 class="service-modal-title" id="modalServiceTitle">Nome Servizio</h3>
+        <p class="service-modal-desc" id="modalServiceDesc">Descrizione del servizio...</p>
+        
+        <div class="service-modal-highlights">
+          <h4 class="service-modal-highlights-title">Cosa include questo trattamento:</h4>
+          <ul class="service-modal-features-list" id="modalServiceFeatures">
+            <!-- Popolato dinamicamente da JavaScript -->
+          </ul>
+        </div>
+      </div>
+
+      <!-- Barra Inferiore con CTA WhatsApp -->
+      <div class="service-modal-footer">
+        <span class="service-modal-footer-note">Preventivo gratuito e personalizzato in base alla tua auto</span>
+        <a href="#" class="btn-modal-whatsapp" id="modalWhatsAppBtn" target="_blank" rel="noopener noreferrer">
+          <svg class="icon-whatsapp" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+            <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2ZM12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.16 12.04 20.16C10.66 20.16 9.3 19.8 8.11 19.1L7.83 18.93L4.71 19.75L5.54 16.71L5.35 16.41C4.55 15.13 4.13 13.54 4.13 11.91C4.13 7.37 7.82 3.67 12.05 3.67ZM8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7.02 8.48 7.02 9.7C7.02 10.92 7.91 12.1 8.03 12.26C8.16 12.43 9.77 14.91 12.23 15.97C12.82 16.22 13.27 16.37 13.63 16.49C14.22 16.67 14.76 16.65 15.19 16.59C15.67 16.51 16.66 15.98 16.87 15.4C17.07 14.81 17.07 14.31 17.01 14.21C16.95 14.11 16.79 14.05 16.54 13.92C16.29 13.8 15.08 13.21 14.85 13.13C14.63 13.04 14.46 13 14.3 13.25C14.13 13.49 13.66 14.05 13.52 14.21C13.38 14.38 13.23 14.4 12.99 14.28C12.74 14.16 11.94 13.9 10.99 13.06C10.25 12.4 9.75 11.59 9.61 11.34C9.46 11.1 9.59 10.96 9.72 10.84C9.83 10.73 9.97 10.55 10.09 10.41C10.22 10.27 10.26 10.16 10.34 10C10.42 9.84 10.38 9.7 10.32 9.58C10.26 9.46 9.77 8.25 9.57 7.76C9.37 7.29 9.17 7.35 9.02 7.34C8.87 7.33 8.71 7.33 8.53 7.33Z"/>
+          </svg>
+          <span>Richiedi preventivo su WhatsApp</span>
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- =======================================================================
+       POP-UP MODALE: LAVORI ESEGUITI & PORTFOLIO COMPLETO
+       Finestra di dialogo modale accessibile e pienamente responsive (Mobile, Tablet, Notebook)
+       ======================================================================= -->
+  <div class="works-modal-backdrop" id="worksModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="worksModalTitle">
+    <div class="works-modal-dialog" role="document">
+      
+      <!-- Testata del Modale con Titolo e Pulsante Chiudi -->
+      <div class="works-modal-header">
+        <div class="works-modal-header-info">
+          <span class="works-modal-eyebrow">PORTFOLIO DETAILING</span>
+          <h3 class="works-modal-title" id="worksModalTitle">Tutti i Lavori Conclusi</h3>
+          <p class="works-modal-subtitle">Una panoramica completa dei trattamenti esclusivi realizzati dal nostro centro. Cura millimetrica, materiali premium e passione per il risultato.</p>
+        </div>
+        <button type="button" class="works-modal-close" id="closeWorksModalBtn" aria-label="Chiudi galleria lavori eseguiti">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Griglia Interattiva dei Lavori Conclusi -->
+      <div class="works-modal-body">
+        <div class="works-modal-grid">
+          
+          <!-- Lavoro 1 -->
+          <article class="works-modal-card">
+            <div class="works-modal-card-media">
+              <picture>
+                <source srcset="assets/lavoro-1-cerchio.webp?v=4.0" type="image/webp">
+                <img src="assets/lavoro-1-cerchio.jpg?v=4.0" alt="Cerchio forgiato nero con pinza dorata" class="works-modal-card-img" width="640" height="384" loading="lazy">
+              </picture>
+              <span class="works-modal-card-badge">Cerchi & Freni</span>
+            </div>
+            <div class="works-modal-card-info">
+              <h4 class="works-modal-card-title">Cerchio Forgiato & Pinza Oro</h4>
+              <p class="works-modal-card-desc">Decontaminazione ferrosa profonda, lucidatura canali e sigillante nanotecnologico ad altissima resistenza termica.</p>
+            </div>
+          </article>
+
+          <!-- Lavoro 2 -->
+          <article class="works-modal-card">
+            <div class="works-modal-card-media">
+              <picture>
+                <source srcset="assets/lavoro-2-interni.webp?v=4.0" type="image/webp">
+                <img src="assets/lavoro-2-interni.jpg?v=4.0" alt="Interni in pelle nera con cuciture dorate" class="works-modal-card-img" width="640" height="384" loading="lazy">
+              </picture>
+              <span class="works-modal-card-badge">Trattamento Pelle</span>
+            </div>
+            <div class="works-modal-card-info">
+              <h4 class="works-modal-card-title">Pelle Nera con Cuciture Artigianali</h4>
+              <p class="works-modal-card-desc">Igienizzazione con schiume a pH neutro e nutrimento profondo con balsamo protettivo anti-screpolature.</p>
+            </div>
+          </article>
+
+          <!-- Lavoro 3 -->
+          <article class="works-modal-card">
+            <div class="works-modal-card-media">
+              <picture>
+                <source srcset="assets/lavoro-3-posteriore.webp?v=4.1" type="image/webp">
+                <img src="assets/lavoro-3-posteriore.jpg?v=4.1" alt="Posteriore auto premium lucidata" class="works-modal-card-img" width="640" height="384" loading="lazy">
+              </picture>
+              <span class="works-modal-card-badge">Protezione Ceramica</span>
+            </div>
+            <div class="works-modal-card-info">
+              <h4 class="works-modal-card-title">Coda Premium & Finitura Wet-Look</h4>
+              <p class="works-modal-card-desc">Lucidatura di finitura a specchio e applicazione di coating ceramico per una brillantezza e idrofobicità assolute.</p>
+            </div>
+          </article>
+
+          <!-- Lavoro 4 -->
+          <article class="works-modal-card">
+            <div class="works-modal-card-media">
+              <picture>
+                <source srcset="assets/lavoro-4-carrozzeria.webp?v=4.0" type="image/webp">
+                <img src="assets/lavoro-4-carrozzeria.jpg?v=4.0" alt="Carrozzeria con riflessi perfetti a specchio" class="works-modal-card-img" width="640" height="384" loading="lazy">
+              </picture>
+              <span class="works-modal-card-badge">Paint Correction</span>
+            </div>
+            <div class="works-modal-card-info">
+              <h4 class="works-modal-card-title">Carrozzeria a Riflesso Puro</h4>
+              <p class="works-modal-card-desc">Correzione in 2 passaggi per eliminare il 95% di swirl e ologrammi, restituendo profondità ottica impeccabile.</p>
+            </div>
+          </article>
+
+          <!-- Lavoro 5 -->
+          <article class="works-modal-card">
+            <div class="works-modal-card-media">
+              <picture>
+                <source srcset="assets/lavoro-5-cerchio.webp?v=4.0" type="image/webp">
+                <img src="assets/lavoro-5-cerchio.jpg?v=4.0" alt="Dettaglio finitura cerchio e spalla pneumatico" class="works-modal-card-img" width="640" height="384" loading="lazy">
+              </picture>
+              <span class="works-modal-card-badge">Dettaglio Ruote</span>
+            </div>
+            <div class="works-modal-card-info">
+              <h4 class="works-modal-card-title">Finitura Ruote & Pneumatici</h4>
+              <p class="works-modal-card-desc">Pulizia chimica di precisione e dressing gomme satinato a lunga durata senza effetto unto.</p>
+            </div>
+          </article>
+
+          <!-- Lavoro 6 -->
+          <article class="works-modal-card">
+            <div class="works-modal-card-media">
+              <picture>
+                <source srcset="assets/lavoro-6-interni.webp?v=4.0" type="image/webp">
+                <img src="assets/lavoro-6-interni.jpg?v=4.0" alt="Console centrale e tunnel abitacolo" class="works-modal-card-img" width="640" height="384" loading="lazy">
+              </picture>
+              <span class="works-modal-card-badge">Interni di Lusso</span>
+            </div>
+            <div class="works-modal-card-info">
+              <h4 class="works-modal-card-title">Tunnel Centrale & Plastiche Soft-Touch</h4>
+              <p class="works-modal-card-desc">Sanificazione vapore secco a 180°C e schermatura antistatica opaca originale per cruscotto e pulsantiere.</p>
+            </div>
+          </article>
+
+          <!-- Lavoro 7 -->
+          <article class="works-modal-card">
+            <div class="works-modal-card-media">
+              <picture>
+                <source srcset="assets/lavoro-7-faro.webp?v=4.0" type="image/webp">
+                <img src="assets/lavoro-7-faro.jpg?v=4.0" alt="Faro a LED trasparente e cristallino" class="works-modal-card-img" width="640" height="384" loading="lazy">
+              </picture>
+              <span class="works-modal-card-badge">Restauro Fari</span>
+            </div>
+            <div class="works-modal-card-info">
+              <h4 class="works-modal-card-title">Proiettore LED Cristallino</h4>
+              <p class="works-modal-card-desc">Rigenerazione del policarbonato con carteggiatura progressiva e sigillatura nanotecnologica anti-UV.</p>
+            </div>
+          </article>
+
+          <!-- Lavoro 8 -->
+          <article class="works-modal-card">
+            <div class="works-modal-card-media">
+              <picture>
+                <source srcset="assets/lavoro-8-finitura.webp?v=4.0" type="image/webp">
+                <img src="assets/lavoro-8-finitura.jpg?v=4.0" alt="Dettaglio finitura carrozzeria con perle d'acqua" class="works-modal-card-img" width="640" height="384" loading="lazy">
+              </picture>
+              <span class="works-modal-card-badge">Coating Nanotech</span>
+            </div>
+            <div class="works-modal-card-info">
+              <h4 class="works-modal-card-title">Effetto Beading & Riflesso Totale</h4>
+              <p class="works-modal-card-desc">Tensione superficiale estrema con effetto idrofobico e brillantezza profonda protetta nel tempo.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- Barra Inferiore con CTA WhatsApp per la Galleria -->
+      <div class="works-modal-footer">
+        <span class="works-modal-footer-note">Vuoi ottenere lo stesso risultato impeccabile per la tua auto?</span>
+        <a href="https://wa.me/393911234567?text=Buongiorno%20A.S.%20Top%20Clean!%20Ho%20visto%20i%20vostri%20lavori%20conclusi%20e%20vorrei%20richiedere%20un%20preventivo%20per%20la%20mia%20auto." 
+           class="btn-modal-whatsapp" 
+           target="_blank" 
+           rel="noopener noreferrer"
+           aria-label="Richiedi preventivo personalizzato su WhatsApp per la tua auto">
+          <svg class="icon-whatsapp" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+            <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2ZM12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.16 12.04 20.16C10.66 20.16 9.3 19.8 8.11 19.1L7.83 18.93L4.71 19.75L5.54 16.71L5.35 16.41C4.55 15.13 4.13 13.54 4.13 11.91C4.13 7.37 7.82 3.67 12.05 3.67ZM8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7.02 8.48 7.02 9.7C7.02 10.92 7.91 12.1 8.03 12.26C8.16 12.43 9.77 14.91 12.23 15.97C12.82 16.22 13.27 16.37 13.63 16.49C14.22 16.67 14.76 16.65 15.19 16.59C15.67 16.51 16.66 15.98 16.87 15.4C17.07 14.81 17.07 14.31 17.01 14.21C16.95 14.11 16.79 14.05 16.54 13.92C16.29 13.8 15.08 13.21 14.85 13.13C14.63 13.04 14.46 13 14.3 13.25C14.13 13.49 13.66 14.05 13.52 14.21C13.38 14.38 13.23 14.4 12.99 14.28C12.74 14.16 11.94 13.9 10.99 13.06C10.25 12.4 9.75 11.59 9.61 11.34C9.46 11.1 9.59 10.96 9.72 10.84C9.83 10.73 9.97 10.55 10.09 10.41C10.22 10.27 10.26 10.16 10.34 10C10.42 9.84 10.38 9.7 10.32 9.58C10.26 9.46 9.77 8.25 9.57 7.76C9.37 7.29 9.17 7.35 9.02 7.34C8.87 7.33 8.71 7.33 8.53 7.33Z"/>
+          </svg>
+          <span>Richiedi preventivo su WhatsApp</span>
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
